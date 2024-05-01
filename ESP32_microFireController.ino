@@ -10,6 +10,7 @@
 #define Recipient_email "carlogalacgac98@gmail.com"
 #define Recipient_name ""
 
+//13 = GPIO13 etc. 
 int inputPinLocation1 = 13;
 int inputPinLocation2 = 12;
 int ouputPinRelay1 = 15;
