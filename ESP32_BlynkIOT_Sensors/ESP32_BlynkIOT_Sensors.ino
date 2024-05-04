@@ -46,7 +46,7 @@ double readCurrentSensor() {
   float R2 = 12000.0;
   float adc_voltage = adc * (3.3 / 4096.0);
   float current_voltage = (adc_voltage * (R1 + R2) / R2);
-  float current = (current_voltage - 2.5) / 0.100;
+  float current = (current_voltage-2.5) / 0.100;
   Serial.print("Current Value: ");
   Serial.println(current);
   Blynk.virtualWrite(V2, current);
